@@ -29,11 +29,11 @@ Install each product according to its instructions.  When complete, install the 
 
 	mkdir -p ~/Projects/Vagrant
 	cd ~/Projects/Vagrant
-	git clone https://github.com/cvquesty/centos65-pe372.git
+	git clone https://github.com/cvquesty/centos65-pe383.git
 	
 **Change to the Directory and Lauch Vagrant**
 
-	cd ~/Projects/Vagrant/centos65-pe372
+	cd ~/Projects/Vagrant/centos65-pe383
 	vagrant up
 	
 At this point, if everything is in order, your system will begin to orchestrate Virtualbox to create all the needed VMs, download the VM images, Puppet Enterprise, and will configure the client machines, connect them to the master, configure R10k, the console, and prepare your environment for use.
